@@ -31,11 +31,11 @@ import { Play } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Narpavi Mehandi & Makeup | Bridal Beauty Studio in Madurai, Tamil Nadu" },
-      { name: "description", content: "Discover Narpavi Mehandi & Makeup in Madurai — bridal makeup, HD makeup, parlour services and our gallery of real mehandi and makeup work from weddings, baby showers and ceremonies." },
-      { name: "keywords", content: "Madurai beautician, bridal makeup Madurai, mehandi artist Madurai, makeup gallery Madurai, mehandi portfolio, bridal beauty portfolio, parlour services Tamil Nadu" },
-      { property: "og:title", content: "Narpavi Mehandi & Makeup | Bridal Beauty Studio in Madurai" },
-      { property: "og:description", content: "Browse our bridal makeup and mehandi gallery — professional beauty services for weddings, ceremonies and beauty classes across Tamil Nadu." },
+      { title: "Narpavi Mehandi & Makeup | Best Beautician in Madurai" },
+      { name: "description", content: "Narpavi Mehandi & Makeup is a trusted beauty studio in Madurai for bridal makeup, mehandi, HD makeup, parlour services, and beauty classes. Search for Narpavi, Narpavi Madurai, Narpavi Makeup, or Narpavi Mehandi." },
+      { name: "keywords", content: "narpavi, narpavi madurai, narpavi makeup, narpavi mehandi, bridal makeup Madurai, mehandi artist Madurai, beautician in Madurai, parlour services Madurai, beauty studio Madurai" },
+      { property: "og:title", content: "Narpavi Mehandi & Makeup | Best Beautician in Madurai" },
+      { property: "og:description", content: "Narpavi is a trusted makeup and mehandi studio in Madurai for bridal beauty, HD makeup, parlour services, and beauty classes." },
       { property: "og:image", content: logoImage },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Narpavi Mehandi & Makeup" },
@@ -208,10 +208,10 @@ function Index() {
               ✦ Bridal Studio · Tamil Nadu ✦
             </span>
             <h1 className="mt-6 text-5xl md:text-7xl font-display leading-[1.05] text-foreground">
-              Adorning every <span className="text-shimmer italic">woman</span> with grace & glamour
+              Narpavi Mehandi & Makeup in Madurai for <span className="text-shimmer italic">bridal beauty</span>
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-md">
-              From soulful mehandi to luminous HD makeup — Narpavi celebrates brides, bridesmaids, baby showers, puberty ceremonies & every cherished moment in a Tamil woman's life.
+              Narpavi is a trusted beautician and parlour in Madurai for bridal makeup, mehandi, HD makeup, baby shower styling, and beauty classes. Search for Narpavi, Narpavi Madurai, Narpavi Makeup, or Narpavi Mehandi to discover our studio.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a href="#packages" className="px-7 py-3.5 rounded-full text-primary-foreground font-medium animate-pulse-glow" style={{ background: "var(--gradient-gold)" }}>
